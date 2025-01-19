@@ -6,7 +6,7 @@
 }
 
 nav {
-    padding: 25px 0;
+    padding: 15px 0;
     background-color: #444;
     overflow: hidden;
     position: sticky;
@@ -23,8 +23,9 @@ nav {
     color: white;
     text-decoration: none;
     display: flex;
-    width: 10   %;
+    width: 10%;
     font-size: 1.3em;
+    padding: 10px;
     box-sizing: border-box;
     justify-content: center;
 }
