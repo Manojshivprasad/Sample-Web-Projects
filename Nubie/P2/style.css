@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+nav {
+    padding: 25px 0;
+    background-color: #444;
+    overflow: hidden;
+    position: sticky;
+    top: 0;
+}
+
+.navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navigation a {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    width: 10   %;
+    font-size: 1.3em;
+    box-sizing: border-box;
+    justify-content: center;
+}
+
+.navigation a:hover{
+    background-color: rgba(96, 92, 92, 0.715);
+    border-radius: 10px;
+}
